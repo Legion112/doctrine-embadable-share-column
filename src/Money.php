@@ -11,7 +11,7 @@ class Money
     public function __construct(
         #[Column(type: 'string')]
         public readonly string $currency,
-        #[Column(type: 'string')]
+        #[Column(type: 'money')]
         public readonly string $amount
     ) {
     }

@@ -15,10 +15,6 @@ class Operation
         public readonly int $id,
         #[ORM\Embedded]
         public readonly Money $total,
-        #[ORM\Embedded]
-        public readonly Money $networkFee,
-        #[ORM\Embedded]
-        public readonly Money $fiat
     ) {
 
     }
